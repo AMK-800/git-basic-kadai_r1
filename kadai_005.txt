@@ -1,0 +1,64 @@
+PS C:\> cd programing
+PS C:\programing> mkdir git_challenge_r1
+
+
+    ディレクトリ: C:\programing
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/12/02     17:01                git_challenge_r1
+
+
+PS C:\programing> cd git_challenge_r1
+PS C:\programing\git_challenge_r1> ni hello_world.txt
+
+
+    ディレクトリ: C:\programing\git_challenge_r1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2024/12/02     17:02              0 hello_world.txt
+
+
+PS C:\programing\git_challenge_r1> git init
+Initialized empty Git repository in C:/programing/git_challenge_r1/.git/
+
+PS C:\programing\git_challenge_r1> echo 'Hello,world!' > hello_world.txt
+PS C:\programing\git_challenge_r1> git add hello_world.txt
+PS C:\programing\git_challenge_r1> git commit -m "Hello,world!を追加”
+[main (root-commit) 3e82039] Hello,world!を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\programing\git_challenge_r1> echo "こんにちは、世界！" > hello_world.txt
+PS C:\programing\git_challenge_r1> git add hello_world.txt
+PS C:\programing\git_challenge_r1> git commit -m "こんにちは、世界！を追加"
+[main 2a0efc1] こんにちは、世界！を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\programing\git_challenge_r1> git log --oneline
+2a0efc1 (HEAD -> main) こんにちは、世界！を追加
+3e82039 Hello,world!を追加
+PS C:\programing\git_challenge_r1> cd..
+PS C:\programing> mkdir kadai_005_r1
+
+
+    ディレクトリ: C:\programing
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/12/02     17:28                kadai_005_r1
+
+
+PS C:\programing> cd kadai_005_r1
+PS C:\programing\kadai_005_r1> ni kadai_005.txt
+
+
+    ディレクトリ: C:\programing\kadai_005_r1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2024/12/02     17:28              0 kadai_005.txt
+
